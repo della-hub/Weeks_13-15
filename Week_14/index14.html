@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="Assets/index14.js"></script>
+    <link rel="stylesheet" href="/Assets/Styles/styles.css" />
+  </head>
+  <body>
+    <div id="elem">
+      <div id="elem-content">
+        <button onclick="myFunction()">push me</button>
+        <div>
+          <fieldset>
+            <legend><b>Greetings</b></legend>
+            <form id="form" onsubmit="return false;">
+              <label for="name">Name:</label>
+              <input type="text" id="name" />
+              <input type="submit" onclick="myFunction2();" />
+            </form>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+    <div id="elem1">
+      <button onclick="myotherFunction()">push me</button>
+      <fieldset>
+        <legend><b>Calculator</b></legend>
+
+        <div>
+          <form id="formcalc" onsubmit="return false;">
+            <label for="firstnumber">First number</label>
+            <input type="text" id="firstnumber" />
+
+            <label for="secondnumber">Second number</label>
+            <input type="text" id="secondnumber" />
+            <input type="submit" value="Sum" onclick="plusFunction();" />
+            <input type="submit" value="Minus" onclick="minusFunction();" />
+            <input type="submit" value="Multiply" onclick="multiFunction();" />
+            <input type="submit" value="Divide" onclick="divFunction();" />
+          </form>
+        </div>
+        <div></div>
+      </fieldset>
+      
+    ​
+    <br />
+  </body>
+</html>
