@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="Assets15/indextest.js"></script>
+  </head>
+  <body>
+
+    <div id="elem">
+        <div id="elem-content">
+          <button onclick="myFunction()">change color</button>
+          <div>
+            <fieldset>
+              <legend><b>Registration form</b></legend>
+              <form id="form" onsubmit="return false;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" />
+                <br /><br />
+                <label for="age">Age:</label>
+                <input type="text" id="age" />
+                <br /><br />
+                <label for="sex">Sex:</label>
+                <input type="text" id="sex" />
+                <br /><br />
+                <label for="city">City:</label>
+                <input type="text" id="city" />
+                <br /><br />
+                <label for="color">Favorite color:</label>
+                <input type="text" id="color" />
+                <br /><br />
+                <input
+                  type="submit"
+                  value="Submit information"
+                  onclick="myFunction2();"
+                />
+              </form>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+    <br /><br /><br /><br />
+    <div id="elem1">
+      <button onclick="myotherFunction()">push me</button>
+      <fieldset>
+        <legend><b>Calculator</b></legend>
+    <label for="">First number: </label><input type="textbox" name="firstnumber"></input><br>
+<label for="">Second number: </label><input type="textbox" name="secondnumber"></input>
+<br>
+<button onClick="sumFunction()">Sum</button><br>
+<label for="sumoutput">Summarized: </label><input type="textbox" name="sumoutput"></input>
+<br>
+<button onClick="minusFunction()">Reduce</button><br>
+<label for="redoutput">Reduced: </label><input type="textbox" name="redoutput"></input>
+<br>
+<button onClick="multiFunction()">Multiply</button><br>
+<label for="multoutput">Multiplied: </label><input type="textbox" name="multoutput"></input>
+<br>
+<button onClick="divFunction()">Divide</button><br>
+<label for="divoutput">Divided: </label><input type="textbox" name="divoutput"></input>
+</fieldset>
+</div>
+  </body>
+</html>
