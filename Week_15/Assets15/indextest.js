@@ -1,3 +1,8 @@
+function changecolor(select) {
+    let color = select.options[select.selectedIndex].textContent;
+    document.body.style.backgroundColor=color;
+}
+
 function myFunction()
 {
     let elem=document.getElementById('elem');
