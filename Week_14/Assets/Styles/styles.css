@@ -32,7 +32,53 @@ aside {
   button {
     background-color: yellowgreen;
   }
-  input {
+  * {
+    box-sizing: border-box;
+  }
+  .slideshow-container {
+    position: relative;
+    margin:auto;
+  }
+  .slider {
+    display: none;
+  }
+  .before,
+  .after {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.after {
+  right: 70%;
+  border-radius: 3px 0 0 3px;
+}
+.before:hover, .after:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+  /*input {
     position: absolute; 
     top: 30%; 
     left: 5%; 
@@ -44,7 +90,7 @@ label {
     left: 0%; 
     width: 10%"
 }
-  /*fieldset {
+  fieldset {
     width: 35%;
     height: 100%;
     background-color: lightgrey;

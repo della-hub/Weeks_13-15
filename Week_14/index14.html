@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="Assets/index14.js"></script>
+    
     <link rel="stylesheet" href="/Assets/Styles/styles.css" />
   </head>
   <body>
@@ -44,10 +44,29 @@
             <input type="submit" value="Divide" onclick="divFunction();" />
           </form>
         </div>
-        <div></div>
+        
       </fieldset>
-      
-    ​
+      <br />
+      <h2>Image slider</h2>
+      <div class="slideshow-container">
+<div class="slider fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="Assets/img/woods1.jpeg" style="width:30%">
+  <div class="text">Woods</div>
+</div>
+<div class="slider fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="Assets/img/woods2.jpeg" style="width:30%">
+  <div class="text">Also woods</div>
+</div>
+
+      </div>
+    ​<a class="before" onclick="plusSlides(-1)">&#10094</a>
+    <a class="after" onclick="plusSlides(1)">&#10095</a>
+    <div class="caption">
+      <p id="cap"></p>
+    </div>
     <br />
+    <script src="Assets/index14.js"></script>
   </body>
 </html>
